@@ -19,6 +19,10 @@ module.exports = {
     {
       pattern: /\/api\/getlist.php\?rtype=rankingRefresh$/,
       respondwith: './ranking-refresh.json'
+    },
+    {
+      pattern: /\/api\/getlist.php\?rtype=game$/,
+      respondwith: './game.json'
     }
   ]
 };

@@ -110,6 +110,8 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 .banner .swiper-container img{width:100%;height:100%}
 .m-index .l-container{position:relative;-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;width:100%;overflow:hidden}
 .m-index .l-container .m-home{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;overflow:hidden;height:100%}
+.m-index .l-container .m-home .search{position:fixed;left:.11rem;top:.11rem}
+.m-index .l-container .m-home .search img{width:.4rem;height:.4rem}
 .m-index .l-container .m-home>*{width:100%}
 .m-index .l-container .m-home .head{text-align:center;height:.3rem;line-height:.3rem}
 .m-index .l-container .m-home .head img{display:inline-block;transform:rotate(180deg);-webkit-transform:rotate(180deg);transition:transform 150ms;-webkit-transition:transform 150ms;height:.15rem;width:.15rem}
@@ -206,11 +208,44 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 .ranking #ranking-swiper .mouthTicket ul li .desc .wenzi h4{height:40px;line-height:40px;font-size:12px}
 .ranking #ranking-swiper .mouthTicket ul li .desc .wenzi i{line-height:25px}
 .ranking #ranking-swiper .mouthTicket ul li .desc .wenzi b{font-weight:100;line-height:40px}
-.game header{width:100%}
-.game header .banner{width:100%}
-.game header .banner .swiper-container .banner .swiper-pagination-bullets{border:1px}
-.game header .banner .swiper-container .banner .swiper-pagination-bullets-active{background:#fff}
-.game header .banner img{width:100%}
+.m-index .l-container{position:relative;-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;width:100%;overflow:hidden}
+.m-index .l-container .game{background:#fff}
+.m-index .l-container .game header{width:100%}
+.m-index .l-container .game header .banner{width:100%}
+.m-index .l-container .game header .banner .swiper-container .banner .swiper-pagination-bullets{border:1px}
+.m-index .l-container .game header .banner .swiper-container .banner .swiper-pagination-bullets-active{background:#fff}
+.m-index .l-container .game header .banner img{width:100%}
+.m-index .l-container .game nav h2{height:.3rem;line-height:.3rem;color:#333;padding-left:.1rem}
+.m-index .l-container .game nav ul{background:#fff;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;align-items:center}
+.m-index .l-container .game nav ul li{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-sizing:border-box;box-sizing:border-box}
+.m-index .l-container .game nav ul li img{margin:.1rem 0;width:.6rem;height:.6rem}
+.m-index .l-container .game nav ul li b{font-weight:100;color:#999;font-size:.10rem}
+.m-index .l-container .game nav ul li p{color:#666}
+.m-index .l-container .game nav ul li p:last-of-type{width:.5rem;height:.2rem;background:#f66;text-align:center;color:#fff}
+.m-index .l-container .game .gamecontent{height:6rem;margin-top:.2rem;padding:0 .23rem 0 .21rem;position:relative}
+.m-index .l-container .game .gamecontent::after{pointer-events:none;position:absolute;z-index:999;top:0;left:0;content:"\0020";border-color:#ddd;border-style:solid;border-width:1px 0 0 0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transform-origin:0 0;transform-origin:0 0}
+@media screen and (orientation:portrait){.m-index .l-container .game .gamecontent::after{width:100%;height:100%}
+}
+@media(min--moz-device-pixel-ratio:1.5),(-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution:144dpi),(min-resolution:1.5dppx){.m-index .l-container .game .gamecontent::after{width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5)}
+}
+@media(min--moz-device-pixel-ratio:2.5),(-webkit-min-device-pixel-ratio:2.5),(min-device-pixel-ratio:2.5),(min-resolution:240dpi),(min-resolution:2.5dppx){.m-index .l-container .game .gamecontent::after{width:300%;height:300%;-webkit-transform:scale(0.3333);transform:scale(0.3333)}
+}
+.m-index .l-container .game .gamecontent ul{width:100%}
+.m-index .l-container .game .gamecontent ul li{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-sizing:border-box;box-sizing:border-box;padding:.1rem 0;position:relative}
+.m-index .l-container .game .gamecontent ul li::after{pointer-events:none;position:absolute;z-index:999;top:0;left:0;content:"\0020";border-color:#ddd;border-style:solid;border-width:0 0 1px 0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transform-origin:0 0;transform-origin:0 0}
+@media screen and (orientation:portrait){.m-index .l-container .game .gamecontent ul li::after{width:100%;height:100%}
+}
+@media(min--moz-device-pixel-ratio:1.5),(-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution:144dpi),(min-resolution:1.5dppx){.m-index .l-container .game .gamecontent ul li::after{width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5)}
+}
+@media(min--moz-device-pixel-ratio:2.5),(-webkit-min-device-pixel-ratio:2.5),(min-device-pixel-ratio:2.5),(min-resolution:240dpi),(min-resolution:2.5dppx){.m-index .l-container .game .gamecontent ul li::after{width:300%;height:300%;-webkit-transform:scale(0.3333);transform:scale(0.3333)}
+}
+.m-index .l-container .game .gamecontent ul li img{width:.6rem;height:.6rem;display:inline-block;margin-right:.2rem}
+.m-index .l-container .game .gamecontent ul li .gamedesc{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;width:100%}
+.m-index .l-container .game .gamecontent ul li .gamedesc>p{color:#666}
+.m-index .l-container .game .gamecontent ul li .gamedesc>b{color:#838383}
+.m-index .l-container .game .gamecontent ul li .gamedesc div{display:-webkit-box;display:-webkit-flex;display:flex;color:#b8b8b8}
+.m-index .l-container .game .gamecontent ul li .gamedesc div i{-webkit-box-flex:2;-webkit-flex:2;flex:2;width:.1px}
+.m-index .l-container .game .gamecontent ul li .gamedesc div p{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;-webkit-box-align:end;-webkit-align-items:flex-end;align-items:flex-end;width:.5rem;height:.2rem;background:#f66;text-align:center;color:#fff}
 .m-index{height:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column}
 .m-index footer{height:.47rem;background-color:#fff}
 .m-index footer ul{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-sizing:border-box;box-sizing:border-box;position:relative;width:100%;height:100%}
@@ -222,22 +257,22 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 @media(min--moz-device-pixel-ratio:2.5),(-webkit-min-device-pixel-ratio:2.5),(min-device-pixel-ratio:2.5),(min-resolution:240dpi),(min-resolution:2.5dppx){.m-index footer ul::after{width:300%;height:300%;-webkit-transform:scale(0.3333);transform:scale(0.3333)}
 }
 .m-index footer ul li{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-sizing:border-box;box-sizing:border-box;padding-top:.03rem}
-.m-index footer ul li:nth-child(1) div{background:url(/first-youyaoqi/images/main_radiobutton_recommend_normal.png);background-size:cover}
-.m-index footer ul li:nth-child(2) div{background:url(/first-youyaoqi/images/main_radiobutton_boutique_normal.png);background-size:cover}
-.m-index footer ul li:nth-child(3) div{background:url(/first-youyaoqi/images/main_radiobutton_bookshelf_normal.png);background-size:cover}
-.m-index footer ul li:nth-child(4) div{background:url(/first-youyaoqi/images/main_radiobutton_game_normal.png);background-size:cover}
-.m-index footer ul li:nth-child(5) div{background:url(/first-youyaoqi/images/main_radiobutton_mine_normal.png);background-size:cover}
-.m-index footer ul li.active:nth-child(1) div{background:url(/first-youyaoqi/images/main_radiobutton_recommend_light.png);background-size:cover}
-.m-index footer ul li.active:nth-child(2) div{background:url(/first-youyaoqi/images/main_radiobutton_boutique_light.png);background-size:cover}
-.m-index footer ul li.active:nth-child(3) div{background:url(/first-youyaoqi/images/main_radiobutton_bookshelf_light.png);background-size:cover}
-.m-index footer ul li.active:nth-child(4) div{background:url(/first-youyaoqi/images/main_radiobutton_game_light.png);background-size:cover}
-.m-index footer ul li.active:nth-child(5) div{background:url(/first-youyaoqi/images/main_radiobutton_mine_light.png);background-size:cover}
+.m-index footer ul li:nth-child(1) div{background:url(/youyaoqi/images/main_radiobutton_recommend_normal.png);background-size:cover}
+.m-index footer ul li:nth-child(2) div{background:url(/youyaoqi/images/main_radiobutton_boutique_normal.png);background-size:cover}
+.m-index footer ul li:nth-child(3) div{background:url(/youyaoqi/images/main_radiobutton_bookshelf_normal.png);background-size:cover}
+.m-index footer ul li:nth-child(4) div{background:url(/youyaoqi/images/main_radiobutton_game_normal.png);background-size:cover}
+.m-index footer ul li:nth-child(5) div{background:url(/youyaoqi/images/main_radiobutton_mine_normal.png);background-size:cover}
+.m-index footer ul li.active:nth-child(1) div{background:url(/youyaoqi/images/main_radiobutton_recommend_light.png);background-size:cover}
+.m-index footer ul li.active:nth-child(2) div{background:url(/youyaoqi/images/main_radiobutton_boutique_light.png);background-size:cover}
+.m-index footer ul li.active:nth-child(3) div{background:url(/youyaoqi/images/main_radiobutton_bookshelf_light.png);background-size:cover}
+.m-index footer ul li.active:nth-child(4) div{background:url(/youyaoqi/images/main_radiobutton_game_light.png);background-size:cover}
+.m-index footer ul li.active:nth-child(5) div{background:url(/youyaoqi/images/main_radiobutton_mine_light.png);background-size:cover}
 .m-index footer ul li div{width:.21rem;height:.21rem}
 .m-index footer ul li.active b{color:#84e04d}
 .m-index footer ul li img,.m-index footer ul li b{display:block;color:#d6d6d6}
 .m-index footer ul li b{font-weight:normal;font-size:.12rem}
 .my{height:100%;width:100%}
-.my .nologtop{color:#fff;font-size:.2rem;width:100%;height:1.1rem;background:url(/first-youyaoqi/images/bg_mine_head.jpg);background-size:cover}
+.my .nologtop{color:#fff;font-size:.2rem;width:100%;height:1.1rem;background:url(/youyaoqi/images/bg_mine_head.jpg);background-size:cover}
 .my .nologtop .zhezhao{width:100%;height:100%;background:rgba(0,0,0,0.3);display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;align-items:center}
 .my .nologtop .zhezhao .pleaselog{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px}
 .my .nologtop .zhezhao .pleaselog p{font-size:.14rem}
@@ -289,8 +324,8 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 .login>img{width:100%}
 .login .content{width:100%;height:2.58rem;background:-webkit-gradient(linear,0 0,0 100%,from(#fefbdc),to(#fff));text-align:center}
 .login .content input{width:80%;height:.35rem;line-height:.35rem;font-size:.12rem;border-radius:.1rem;border:0;margin-top:.15rem;-webkit-box-sizing:border-box;box-sizing:border-box;background:#fff}
-.login .content input:first-of-type{padding-left:.35rem;background-image:url(/first-youyaoqi/images/icon_account.png);background-repeat:no-repeat;background-size:contain;background-position:.05rem center}
-.login .content input:nth-child(2){padding-left:.35rem;background-image:url(/first-youyaoqi/images/icon_password.png);background-position:.05rem center;background-size:contain;background-repeat:no-repeat}
+.login .content input:first-of-type{padding-left:.35rem;background-image:url(/youyaoqi/images/icon_account.png);background-repeat:no-repeat;background-size:contain;background-position:.05rem center}
+.login .content input:nth-child(2){padding-left:.35rem;background-image:url(/youyaoqi/images/icon_password.png);background-position:.05rem center;background-size:contain;background-repeat:no-repeat}
 .login .content input:last-of-type{background:#8ddf4d;margin:.15rem 0;font-size:.16rem;color:#fff}
 .login .content p{width:100%;display:-webkit-box;display:-webkit-flex;display:flex}
 .login .content p span{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px}
@@ -330,6 +365,23 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 }
 .reg .contentReg p{width:80%;font-size:.12rem;color:#7a7a7a;margin-left:10%;text-align:left}
 .reg .contentReg p a{color:#f09072}
+.m-index .l-container{position:relative;-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;width:100%;overflow:hidden}
+.m-index .l-container .m-recommend{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;overflow:hidden;height:100%}
+.m-index .l-container .m-recommend .search{position:fixed;left:.11rem;top:.11rem}
+.m-index .l-container .m-recommend .search img{width:.4rem;height:.4rem}
+.m-index .l-container .m-recommend>*{width:100%}
+.m-index .l-container .m-recommend .remcontent>img{width:100%}
+.m-index .l-container .m-recommend .remcontent div{width:100%;height:1rem;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-sizing:border-box;box-sizing:border-box;padding:0 .42rem 0 .17rem;background:#fff}
+.m-index .l-container .m-recommend .remcontent div img{margin-top:.2rem;width:.57rem;height:.6rem}
+.m-index .l-container .m-recommend .remcontent div p{-webkit-box-flex:1;-webkit-flex:1;flex:1;width:.1px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column}
+.m-index .l-container .m-recommend .remcontent div p b{position:relative;padding-bottom:.16rem;line-height:.7rem}
+.m-index .l-container .m-recommend .remcontent div p b::after{pointer-events:none;position:absolute;z-index:999;top:0;left:0;content:"\0020";border-color:#8f9f9e;border-style:solid;border-width:0 0 1px 0;-webkit-box-sizing:border-box;box-sizing:border-box;-webkit-transform-origin:0 0;transform-origin:0 0}
+@media screen and (orientation:portrait){.m-index .l-container .m-recommend .remcontent div p b::after{width:100%;height:100%}
+}
+@media(min--moz-device-pixel-ratio:1.5),(-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5),(min-resolution:144dpi),(min-resolution:1.5dppx){.m-index .l-container .m-recommend .remcontent div p b::after{width:200%;height:200%;-webkit-transform:scale(0.5);transform:scale(0.5)}
+}
+@media(min--moz-device-pixel-ratio:2.5),(-webkit-min-device-pixel-ratio:2.5),(min-device-pixel-ratio:2.5),(min-resolution:240dpi),(min-resolution:2.5dppx){.m-index .l-container .m-recommend .remcontent div p b::after{width:300%;height:300%;-webkit-transform:scale(0.3333);transform:scale(0.3333)}
+}
 .bookshelf-home{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;height:100%;overflow:hidden}
 .bookshelf-home nav{height:.45rem;background:#fff}
 .bookshelf-home nav ul{width:100%;height:100%;display:-webkit-box;display:-webkit-flex;display:flex}
@@ -347,3 +399,4 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 .bookshelf-home #bookshelf-hot-swiper .swiper-wrapper .swiper-slide .nolog{position:absolute;top:50%;width:100%;margin:0 auto;text-align:center}
 .bookshelf-home #bookshelf-hot-swiper .swiper-wrapper .swiper-slide .nolog .nothing{margin-top:-10%;width:1.5rem}
 .bookshelf-home #bookshelf-hot-swiper .swiper-wrapper .swiper-slide .nolog p{width:100%;text-align:center}
+.xiaojistory{width:100%;height:100%;background:#f66}
