@@ -1,0 +1,244 @@
+{
+    "data": {
+        "message": "处理成功",
+        "stateCode": 1,
+        "returnData": {
+            "hasMore": true,
+            "gameheader": {
+                "recommands": [
+                    {
+                        "appId": 44,
+                        "dowmLoadUrl": "http://tj.u17t.com/rpqi/click_MzE2XzIyMzNfMjQ2Mg==_MTY4MCoxMDUw",
+                        "appPackageName": "com.tencent.KiHan",
+                        "coverUrl": "http://static.u17i.com/wan/upload/images/20160425/975d829fu17595eu174b20u17ba02u174a0faba15715.png",
+                        "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160425/975d829fu17595eu174b20u17ba02u174a0faba15715.png",
+                        "title": "火影忍者",
+                        "gameType": "卡牌养成",
+                        "size": 358406914
+                    },
+                    {
+                        "appId": 56,
+                        "dowmLoadUrl": "http://tj.u17t.com/vif9/click_MzI5XzI0NjZfMjY4MQ==_MTY4MCoxMDUw",
+                        "appPackageName": "com.smiletech.shzj.u17",
+                        "coverUrl": "http://static.u17i.com/wan/upload/images/20160425/bd95d5f2u17eef0u174d4fu17bc67u179715a61afbcb.png",
+                        "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160425/bd95d5f2u17eef0u174d4fu17bc67u179715a61afbcb.png",
+                        "title": "山海战记",
+                        "gameType": "卡牌养成",
+                        "size": 346015840
+                    },
+                    {
+                        "appId": 59,
+                        "dowmLoadUrl": "http://tj.u17t.com/3edh/click_MzMzXzI1MjNfMjczMQ==_MTY4MCoxMDUw",
+                        "appPackageName": "com.ilongyuan.voez.ly",
+                        "coverUrl": "http://static.u17i.com/wan/upload/images/20160530/0db492e2u1782d7u174553u179774u17ca4414613068.png",
+                        "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160530/0db492e2u1782d7u174553u179774u17ca4414613068.png",
+                        "title": "兰空VOEZ",
+                        "gameType": "卡牌养成",
+                        "size": 99537748
+                    },
+                    {
+                        "appId": 54,
+                        "dowmLoadUrl": "http://tj.u17t.com/9h9p/click_MzMyXzI0ODZfMjcwMQ==_MTY4MCoxMDUw",
+                        "appPackageName": "com.yunchang.djsy.yyq",
+                        "coverUrl": "http://static.u17i.com/wan/upload/images/20160621/a9fc9680u171e75u174005u178389u171e486fdb130c.png",
+                        "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160621/a9fc9680u171e75u174005u178389u171e486fdb130c.png",
+                        "title": "刀剑黑衣剑士",
+                        "gameType": "卡牌养成",
+                        "size": 430012135
+                    },
+                    {
+                        "appId": 41,
+                        "dowmLoadUrl": "http://tj.u17t.com/wilh/click_MzEzXzIwMjJfMjI0MQ==_MTY4MCoxMDUw",
+                        "appPackageName": "com.ljapps.p2209.lj8",
+                        "coverUrl": "http://static.u17i.com/wan/upload/images/20160229/635672adu17ccebu174005u17a24fu17cca459514981.png",
+                        "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160229/635672adu17ccebu174005u17a24fu17cca459514981.png",
+                        "title": "FATE魔都战争",
+                        "gameType": "卡牌养成",
+                        "size": 128950915
+                    },
+                    {
+                        "appId": 60,
+                        "dowmLoadUrl": "http://tj.u17t.com/76nf/click_MzM0XzI1MzhfMjc0Ng==_MTY4MCoxMDUw",
+                        "appPackageName": "com.weibo.game.maruko.yyq",
+                        "coverUrl": "http://static.u17i.com/wan/upload/images/20160616/20b23dafu170f65u174451u179e96u17423cc4e14c9d.png",
+                        "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160616/20b23dafu170f65u174451u179e96u17423cc4e14c9d.png",
+                        "title": "樱桃小丸子",
+                        "gameType": "休闲养成",
+                        "size": 74954531
+                    }
+                ],
+                "banner": [
+                    {
+                        "coverUrl": "http://static.u17i.com/wan/upload/images/20160621/eefe1dd1u174c1eu174ae8u179b4eu17680853352f25.jpg",
+                        "type": 1,
+                        "gotoUrl": "",
+                        "appId": 62
+                    },
+                    {
+                        "coverUrl": "http://static.u17i.com/wan/upload/images/20160615/efccba6bu174f01u174277u17a7ffu175c7be2735c72.jpg",
+                        "type": 1,
+                        "gotoUrl": "",
+                        "appId": 59
+                    },
+                    {
+                        "coverUrl": "http://static.u17i.com/wan/upload/images/20160425/2030c91bu172bbeu1744a1u17a945u17854baa4e7f6b.jpg",
+                        "type": 1,
+                        "gotoUrl": "",
+                        "appId": 54
+                    },
+                    {
+                        "coverUrl": "http://static.u17i.com/wan/upload/images/20160425/11e40aebu17db0bu17426au179603u17a2d012f34ecd.jpg",
+                        "type": 1,
+                        "gotoUrl": "",
+                        "appId": 56
+                    }
+                ]
+            },
+            "page": 1,
+            "itemList": [
+                {
+                    "appId": 48,
+                    "coverUrl": "http://static.u17i.com/wan/upload/images/20160304/7afccfc5u1732c2u174884u17a684u17816a0b79d63b.png",
+                    "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160304/489cb8b2u17eb96u174257u17a564u174134e1aff3a4.png",
+                    "title": "航海王强者之路",
+                    "size": 200411202,
+                    "desc": "《航海王》正版授权手游《航海王强者之路》。出发吧，成为我的伙伴！",
+                    "dowmLoadUrl": "http://tj.u17t.com/yf2u/click_MzIwXzIzNDVfMjU3MQ==_MTY4MCoxMDUw",
+                    "downloadTimes": 29783,
+                    "appPackageName": "com.shanghailvbing.hhw.azsy",
+                    "smallPictureUrls": null,
+                    "bigPictureUrls": null,
+                    "gameType": "卡牌养成"
+                },
+                {
+                    "appId": 62,
+                    "coverUrl": "http://static.u17i.com/wan/upload/images/20160621/c41223b5u17b757u1743d5u17a460u1771de2a229648.png",
+                    "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160621/b25efa6du17a9edu174b5fu17b080u171e782c901a1c.png",
+                    "title": "死神觉醒",
+                    "size": 410701690,
+                    "desc": "★100%还原BLEACH★\r\n剧情、角色、招式、配乐高度还原，原著人物任你操控，进击虚圈对决魅力反派",
+                    "dowmLoadUrl": "http://tj.u17t.com/i5p8/click_MzM2XzI1NDZfMjc1NQ==_MTY4MCoxMDUw",
+                    "downloadTimes": 75499,
+                    "appPackageName": "com.xhhd.bleach",
+                    "smallPictureUrls": null,
+                    "bigPictureUrls": null,
+                    "gameType": "角色扮演"
+                },
+                {
+                    "appId": 54,
+                    "coverUrl": "http://static.u17i.com/wan/upload/images/20160621/a560f9b3u17cecbu1749d2u1780c4u17e788246a2269.png",
+                    "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160621/a9fc9680u171e75u174005u178389u171e486fdb130c.png",
+                    "title": "刀剑神域黑衣剑士",
+                    "size": 430012135,
+                    "desc": "万代正版授权，天朝刀剑迷信仰之作！",
+                    "dowmLoadUrl": "http://tj.u17t.com/9h9p/click_MzMyXzI0ODZfMjcwMQ==_MTY4MCoxMDUw",
+                    "downloadTimes": 491895,
+                    "appPackageName": "com.yunchang.djsy.yyq",
+                    "smallPictureUrls": null,
+                    "bigPictureUrls": null,
+                    "gameType": "卡牌养成"
+                },
+                {
+                    "appId": 29,
+                    "coverUrl": "http://static.u17i.com/wan/upload/images/20160621/8ecd3a10u171479u174e51u178da3u177ae1933d86bb.png",
+                    "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160621/93826decu171028u174c3fu179d7au17929fea0ebd9f.png",
+                    "title": "乖离性百万亚瑟王",
+                    "size": 55987326,
+                    "desc": "日本超人气卡牌RPG《乖离性百万亚瑟王》有妖气首发公测！",
+                    "dowmLoadUrl": "http://tj.u17t.com/4z7n/click_MzA3XzE5NThfMjE3Ng==_MTkyMCoxMDgw",
+                    "downloadTimes": 83332,
+                    "appPackageName": "com.ljapps.p1726.lj8",
+                    "smallPictureUrls": null,
+                    "bigPictureUrls": null,
+                    "gameType": "卡牌养成"
+                },
+                {
+                    "appId": 61,
+                    "coverUrl": "http://static.u17i.com/wan/upload/images/20160621/a7b7d3a2u17f8ebu1744dcu17939eu174048409974a5.png",
+                    "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160621/670f5dc2u177dd2u1743abu17a4aau1727e480258fa0.png",
+                    "title": "音速少女队2",
+                    "size": 235695715,
+                    "desc": "日本超一线CV配音，顶级听觉盛宴；真实美少女养成，打造你的专属女友！",
+                    "dowmLoadUrl": "http://tj.u17t.com/qmpm/click_MzM1XzI1NDNfMjc1Mg==_MTY4MCoxMDUw",
+                    "downloadTimes": 50146,
+                    "appPackageName": "com.skymoons.ys2.skymoons",
+                    "smallPictureUrls": null,
+                    "bigPictureUrls": null,
+                    "gameType": "删档封测"
+                },
+                {
+                    "appId": 49,
+                    "coverUrl": "http://static.u17i.com/wan/upload/images/20160621/e9138475u17a5f7u1746dcu17835cu1733ca5bc3dff7.png",
+                    "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160621/9d51f09cu17c0c3u174f8fu178e52u17ff5b8f41d50f.png",
+                    "title": "火影忍者-忍者大师",
+                    "size": 146147980,
+                    "desc": "“火影忍者”正版授权手游《火影忍者－忍者大师》新生公测震撼来袭！",
+                    "dowmLoadUrl": "http://tj.u17t.com/yjmg/click_MzI0XzIzOThfMjYxNA==_MTkyMCoxMDgw",
+                    "downloadTimes": 42080,
+                    "appPackageName": "com.game.hyrz.android.cmge",
+                    "smallPictureUrls": null,
+                    "bigPictureUrls": null,
+                    "gameType": "角色扮演"
+                },
+                {
+                    "appId": 8,
+                    "coverUrl": "http://static.u17i.com/wan/upload/images/20160621/0bb7f34eu17755fu1748beu179779u17d8a00e04945a.png",
+                    "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160621/23e7bfcdu174c65u174a5au179832u17b69416ba7277.png",
+                    "title": "梅露可物语",
+                    "size": 170480080,
+                    "desc": "有妖气首发！最Q萌的日系手游--《梅露可物语》",
+                    "dowmLoadUrl": "http://tj.u17t.com/86o9/click_MjY2XzE2MTZfMTc5Mw==_MTkyMCoxMDgw",
+                    "downloadTimes": 100254,
+                    "appPackageName": "com.happyelements.miraclecn.u17",
+                    "smallPictureUrls": null,
+                    "bigPictureUrls": null,
+                    "gameType": "卡牌养成"
+                },
+                {
+                    "appId": 60,
+                    "coverUrl": "http://static.u17i.com/wan/upload/images/20160616/e2de097fu176bedu174412u179a93u17ced3644be141.png",
+                    "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160616/20b23dafu170f65u174451u179e96u17423cc4e14c9d.png",
+                    "title": "樱桃小丸子",
+                    "size": 74954531,
+                    "desc": "和小丸子一起环球旅行吧！",
+                    "dowmLoadUrl": "http://tj.u17t.com/76nf/click_MzM0XzI1MzhfMjc0Ng==_MTY4MCoxMDUw",
+                    "downloadTimes": 21854,
+                    "appPackageName": "com.weibo.game.maruko.yyq",
+                    "smallPictureUrls": null,
+                    "bigPictureUrls": null,
+                    "gameType": "休闲养成"
+                },
+                {
+                    "appId": 59,
+                    "coverUrl": "http://static.u17i.com/wan/upload/images/20160530/17a3c60bu173796u17466cu17aedcu1749529a885f6e.png",
+                    "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160530/0db492e2u1782d7u174553u179774u17ca4414613068.png",
+                    "title": "兰空VOEZ",
+                    "size": 99537748,
+                    "desc": "有妖气音乐手游《兰空VOEZ》一个有关青春的故事，这个故事是用音乐游戏的方式展现给大家，告诉我们：音乐游戏本该如此好玩！",
+                    "dowmLoadUrl": "http://tj.u17t.com/3edh/click_MzMzXzI1MjNfMjczMQ==_MTY4MCoxMDUw",
+                    "downloadTimes": 320795,
+                    "appPackageName": "com.ilongyuan.voez.ly",
+                    "smallPictureUrls": null,
+                    "bigPictureUrls": null,
+                    "gameType": ""
+                },
+                {
+                    "appId": 58,
+                    "coverUrl": "http://static.u17i.com/wan/upload/images/20160425/3d4ead11u17ee54u1744d5u17b7bdu179cc0458ea992.png",
+                    "largeCoverUrl": "http://static.u17i.com/wan/upload/images/20160425/a48dba53u171ef6u17475du178b89u17a84b528bc977.png",
+                    "title": "战舞幻想曲",
+                    "size": 323404728,
+                    "desc": "有妖气3D·ART手游《战舞幻想曲》，二次元萌娘探宝，探索封晶迷境的大冒险！",
+                    "dowmLoadUrl": "http://tj.u17t.com/n5j9/click_MzMxXzI0NzlfMjY5NA==_MTY4MCoxMDUw",
+                    "downloadTimes": 246704,
+                    "appPackageName": "com.zxlf.zwhx.tbl",
+                    "smallPictureUrls": null,
+                    "bigPictureUrls": null,
+                    "gameType": "策略养成"
+                }
+            ],
+            "Last_Modified": 1467027450000
+        }
+    },
+    "code": 1
+}
